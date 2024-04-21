@@ -4,7 +4,7 @@
 
 export class TodoEntity{
     constructor(
-        public is: number,
+        public id: number,
         public text: string,
         public completedAt?: Date|null
     ){}
